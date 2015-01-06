@@ -9,17 +9,9 @@
   font-weight: bold;
 }
 
-.background-image-container__title {
-  padding-top: 15px;
-  color: #FFF;
-  font-size: 40px;
-}
-
-
 .main-explanation {
   width: 80%;
   margin: 40px auto 20px;
-  background-color: #00B5FF;
   color: #FFF;
   font-size: 18px;
 }
@@ -34,9 +26,9 @@
   width: 240px;
   margin: 0px auto 30px;
   padding: 15px;
-  border: 3px solid #00B5FF;
+  border: 3px solid #542F64;
   text-align: center;
-  color: #00B5FF;
+  color: #542F64;
   font-size: 30px;
 }
 
@@ -47,7 +39,7 @@
   text-align: center;
   color: #FFF;
   font-size: 30px;
-  background-color: #00B5FF;
+  background-color: #542F64;
 }
 
 /*Questions Page*/
@@ -55,7 +47,7 @@
 .questions-container {
   width: 100%; height: 100vh;
   overflow: auto;
-  background-color: #00B5FF;
+  background-color: #542F64;
 }
 
 .current-count {
@@ -91,7 +83,7 @@
 
 .navigation-button:active {
   text-align: center;
-  color: #00B5FF;
+  color: #542F64;
   background-color: #FFF;
   padding: 10px;
 }
@@ -118,6 +110,12 @@
 
 .item:active {
   background-color: #F3F3F3;
+}
+
+.background-image-container__title--love-maps {
+  padding-top: 15px;
+  color: #FFF;
+  font-size: 40px;
 }
 
 .background-image-container__title-container--open-ended-questions {

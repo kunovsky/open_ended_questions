@@ -27,8 +27,8 @@ module.exports =
       location: "questions#index"
     }
     {
-      id: "open-ended-questions"
-      location: "resources#openEndedQuestions"
+      id: "love-maps"
+      location: "resources#loveMaps"
     }
     {
       id: "give-appreciation"
