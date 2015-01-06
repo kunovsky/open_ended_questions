@@ -38,13 +38,13 @@ angular
     }
 
     $scope.previousQuestion = () ->
-      return if $scope.current == 1
-      $scope.current -= 1 unless $scope.current == 1
+      $scope.current -= 1
+      $scope.current = $scope.totalQuestions if $scope.current < 1
       supersonic.ui.animate("slideFromLeft", $scope.options).perform()
 
     $scope.nextQuestion = () ->
-      return if $scope.current == $scope.totalQuestions
-      $scope.current += 1 unless $scope.current == $scope.totalQuestions
+      $scope.current += 1
+      $scope.current = 1 if $scope.current > $scope.totalQuestions
       supersonic.ui.animate("slideFromRight", $scope.options).perform()
 
     $scope.currentQuestion = () -> $scope.questions[$scope.current]
