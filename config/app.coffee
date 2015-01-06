@@ -2,7 +2,7 @@
 
 module.exports =
   app:
-    name: "open_ended_questions"
+    name: "Open Ended Questions"
 
   # steroidsAppId and steroidsApiKey headers are required by Supersonic Data
   # network:
