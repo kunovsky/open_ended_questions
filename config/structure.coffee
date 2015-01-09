@@ -31,6 +31,10 @@ module.exports =
       location: "resources#loveMaps"
     }
     {
+      id: "rituals-of-connection"
+      location: "resources#ritualsOfConnection"
+    }
+    {
       id: "give-appreciation"
       location: "resources#giveAppreciation"
     }
